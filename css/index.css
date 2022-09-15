@@ -3,7 +3,6 @@
     margin: 0 auto;
     height: 600px;
     background: #EAEBFE;
-    margin-top: 10px;
     margin-left: 45px;
     margin-right: 45px;
     border-radius: 7px;
@@ -20,7 +19,6 @@
     position: absolute;
     top:170px;
     left:50px;
-
     padding: 10px;
 }
 .wel-text>h1{
@@ -38,8 +36,8 @@
 }
 .map{
     height:690px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background: #E4D0F7;
 }
 .map>.img{
