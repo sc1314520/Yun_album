@@ -1,8 +1,9 @@
 .header{
-    position: fixed;
     width:1210px;
     height: 70px;
-    margin-left: 115px;
+    margin: 0 auto;
+    margin-left: 117px;
+    position: fixed;
     display: flex;
     z-index: 1000;
     background:rgba(228, 207, 247, 0.3);
@@ -46,7 +47,7 @@
     color: white;
 }
 .main{
-    width:1280px;
+    width:1210px;
     margin: 0 auto;
     padding-top: 78px;
     display: flex;
@@ -64,7 +65,7 @@
 }
 
 .contact{
-    margin-left: 50px;
+    margin-left: 60px;
     line-height: 1.5;
     font-weight: bold;
     font-size: 20px;
