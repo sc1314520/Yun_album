@@ -83,6 +83,7 @@
 }
 }
 @media screen and (max-width:500px){
+    
     .header{
         width:360px;
         height: 70px;
