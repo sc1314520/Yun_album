@@ -191,6 +191,7 @@
         display: block;
         width: 100%;
         text-align: center;
+        color: white;
     }
     .hide-list a:hover{
         background-color:rgba(228, 208, 247,0.5);
