@@ -1,4 +1,8 @@
 @media screen and (max-width:2000px){
+body{
+        font-family: 'Ubuntu', sans-serif;
+    
+}
 .main{
     width: 100%;
     display: flex;
