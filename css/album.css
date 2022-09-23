@@ -32,6 +32,9 @@
 .album-content>img{
     width: 100%;
 }
+.album-content>img:hover{
+    box-shadow: 5px 5px 5px #E4D0F7;
+}
 }
 @media screen and (max-width:500px){
     .album{

@@ -18,8 +18,16 @@
 .p{
     background: #E4D0F7;
 }
+.p:hover{
+    box-shadow: 10px 10px 10px #E4D0F7;
+    transition: all 0.75s;
+}
 .b{
     background: rgba(48, 57, 241, 0.1);
+}
+.b:hover{
+    box-shadow: 10px 10px 10px rgba(48, 57, 241, 0.1);
+    transition: all 1s;
 }
 .sc-content>h1{
     font-size: 72px;
@@ -30,8 +38,6 @@
     left:35px;
 }
 .sc-text{
-   
-    
     position: absolute;
     top:165px;
     left:55px;

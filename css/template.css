@@ -73,7 +73,7 @@
 
 .bar{
     width: 100%;
-    border-bottom: 3px solid #E4D0F7;
+    border-bottom: 4px solid #E4D0F7;
     z-index: 1001;
     position: absolute;
     bottom:2px;
@@ -88,13 +88,15 @@
         height: 70px;
         margin: 0 auto;
         display: flex;
-        position: relative;
+        position: fixed;
+        z-index: 2000;
+        left: 15px;
     }
     .logo{
         width:40%;
         height: 100%;
         margin-top:13px;
-        margin-left: 10px;
+        margin-left: 15px;
     }
     .logo img{
         width:100%;
@@ -145,6 +147,7 @@
     .main{
         width:360px;
         margin: 0 auto;
+        padding-top: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -157,6 +160,7 @@
         justify-content: left;
         align-items: center;
         background: rgb(234, 235, 254);
+        
     }
     
     .contact{
@@ -180,10 +184,11 @@
         bottom:-130px;
         z-index: 1005;
         width: 100%;
-        background-color:rgba(255,255,255,0.5);
+        background-color:rgba(255, 255, 255, 0.5);
     }
     .hide-list-show{
         display: block;
+        
     }
     .hide-list a{
         text-decoration: none;
@@ -191,7 +196,7 @@
         display: block;
         width: 100%;
         text-align: center;
-        color: white;
+        color: plum;
     }
     .hide-list a:hover{
         background-color:rgba(228, 208, 247,0.5);

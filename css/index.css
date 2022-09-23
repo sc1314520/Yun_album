@@ -14,8 +14,11 @@
         position: absolute;
         right:20px;
         top:44px;
-    
         width:705px;
+        transition: all 0.75s;
+    }
+    .wel>.img:hover{
+        box-shadow: 10px 10px 10px gray;
     }
     .wel-text{
         position: absolute;
@@ -47,6 +50,10 @@
         top:20px;
         right:30px;
         width:800px;
+        transition: 0.75s all;
+    }
+    .map>.img:hover{
+        box-shadow: 10px 10px 10px gray;
     }
     .map-text{
         position: absolute;
@@ -146,7 +153,7 @@
         background: white;
         border-radius: 10px;
         position: absolute;
-        right:33px;
+        right:32px;
         top:42px;
     }
 }
