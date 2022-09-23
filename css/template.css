@@ -1,3 +1,4 @@
+@media screen and (max-width:2000px){
 .header{
     width:1210px;
     height: 70px;
@@ -23,11 +24,15 @@
 .header-list>ul{
     display: flex;
 }
+.ham{
+    display: none;
+}
 .header-list ul>li{
     width:25%;
     text-align: center;
     height: 100%;
     font-size: 19px;
+    position: relative;
 }
 .header-list li>a{
     color: black;
@@ -64,4 +69,131 @@
     line-height: 1.5;
     font-weight: bold;
     font-size: 20px;
+}
+
+.bar{
+    width: 100%;
+    border-bottom: 3px solid #E4D0F7;
+    z-index: 1001;
+    position: absolute;
+    bottom:2px;
+}
+.hide-list{
+    display: none;
+}
+}
+@media screen and (max-width:500px){
+    .header{
+        width:360px;
+        height: 70px;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+    }
+    .logo{
+        width:40%;
+        height: 100%;
+        margin-top:13px;
+        margin-left: 10px;
+    }
+    .logo img{
+        width:100%;
+    }
+    .blank{
+        width:45%;
+    }
+    .header-list{
+        width:45%;
+        height: 100%;
+    }
+    .ham{
+        display: block;
+        width:25%;
+        text-align: center;
+        height: 100%;
+        font-size: 60px;
+        line-height: 100%;
+        margin-left: 60px;
+        margin-top: 2px;
+        position: relative;
+        color:#E4D0F7;
+    }
+    .header-list>ul{
+        display: flex;
+        display: none;
+    }
+    .header-list ul>li{
+        width:25%;
+        text-align: center;
+        height: 100%;
+        font-size: 19px;
+        position: relative;
+    }
+    .header-list li>a{
+        color: black;
+        font-weight: bolder;
+        text-decoration: none;
+        line-height: 70px;
+        display: block;
+        
+    }
+    .header-list li>a:hover{
+        cursor: pointer;
+        background: rgba(228, 207, 247, 0.3);
+        color: white;
+    }
+    .main{
+        width:360px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        width:360px;
+        margin: 0 auto;
+        height:80px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background: rgb(234, 235, 254);
+    }
+    
+    .contact{
+        margin-left: 20px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .bar{
+        width: 100%;
+        border-bottom: 3px solid rgb(228, 208, 247);
+        z-index: 1001;
+        position: absolute;
+        bottom:2px;
+        display: none;
+    }
+    .hide-list{
+        position: absolute;
+        display: none;
+        bottom:-130px;
+        z-index: 1005;
+        width: 100%;
+        background-color:rgba(255,255,255,0.5);
+    }
+    .hide-list-show{
+        display: block;
+    }
+    .hide-list a{
+        text-decoration: none;
+        line-height: 2;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .hide-list a:hover{
+        background-color:rgba(228, 208, 247,0.5);
+    }
+
 }

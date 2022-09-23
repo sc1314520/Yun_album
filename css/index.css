@@ -1,73 +1,153 @@
-.wel,.map{
-    width: 1210px;
-    margin: 0 auto;
-    height: 600px;
-    background: #EAEBFE;
-    margin-left: 45px;
-    margin-right: 45px;
-    border-radius: 7px;
-    position: relative;
+@media screen and (max-width:2000px){
+    .wel,.map{
+        width: 1210px;
+        margin: 0 auto;
+        height: 600px;
+        background: #EAEBFE;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-top: 15px;
+        border-radius: 7px;
+        position: relative;
+    }
+    .wel>.img{
+        position: absolute;
+        right:20px;
+        top:44px;
+    
+        width:705px;
+    }
+    .wel-text{
+        position: absolute;
+        top:170px;
+        left:50px;
+        padding: 10px;
+    }
+    .wel-text>h1{
+        font-weight: bolder;
+        font-size: 80px;
+        line-height: 1.6;
+    }
+    .wel-text>h2{
+        font-size:32px;
+        line-height: 1.2;
+        padding-left: 30px;
+    }
+    .img>img{
+        width:100%;
+    }
+    .map{
+        height:690px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background: #E4D0F7;
+    }
+    .map>.img{
+        position: absolute;
+        top:20px;
+        right:30px;
+        width:800px;
+    }
+    .map-text{
+        position: absolute;
+        top:370px;
+        left:90px;
+        padding: 10px;
+    }
+    .map-text>h1{
+        font-weight: bolder;
+        font-size: 80px;
+        line-height: 1.4;
+    }
+    .map-text>h2{
+        font-size:24px;
+        padding-left: 15px;
+    }
+    .map-blank{
+        width:150px;
+        height:150px;
+        background: white;
+        border-radius: 10px;
+        position: absolute;
+        right:90px;
+        top:45px;
+    }
+    
+    
 }
-.wel>.img{
-    position: absolute;
-    right:20px;
-    top:44px;
+@media screen and (max-width:500px){
+    .wel,.map{
+        width: 360px;
+        margin: 0 auto;
+        height: 400px;
+        background: #EAEBFE;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        border-radius: 7px;
+        position: relative;
+    }
+    .wel>.img{
+        position: absolute;
+        right:2px;
+        top:14px;
 
-    width:705px;
-}
-.wel-text{
-    position: absolute;
-    top:170px;
-    left:50px;
-    padding: 10px;
-}
-.wel-text>h1{
-    font-weight: bolder;
-    font-size: 80px;
-    line-height: 1.6;
-}
-.wel-text>h2{
-    font-size:32px;
-    line-height: 1.2;
-    padding-left: 30px;
-}
-.img>img{
-    width:100%;
-}
-.map{
-    height:690px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background: #E4D0F7;
-}
-.map>.img{
-    position: absolute;
-    top:20px;
-    right:30px;
-    width:800px;
-}
-.map-text{
-    position: absolute;
-    top:370px;
-    left:90px;
-    padding: 10px;
-}
-.map-text>h1{
-    font-weight: bolder;
-    font-size: 80px;
-    line-height: 1.4;
-}
-.map-text>h2{
-    font-size:24px;
-    padding-left: 15px;
-}
-.map-blank{
-    width:150px;
-    height:150px;
-    background: white;
-    border-radius: 10px;
-    position: absolute;
-    right:90px;
-    top:45px;
+        width:350px;
+    }
+    .wel-text{
+        position: absolute;
+        top:260px;
+        left:20px;
+        padding: 10px;
+    }
+    .wel-text>h1{
+        font-weight: bolder;
+        font-size: 40px;
+        line-height: 1.6;
+    }
+    .wel-text>h2{
+        font-size:16px;
+        line-height: 1.2;
+        padding-left: 10px;
+    }
+    .img>img{
+        width:100%;
+    }
+    .map{
+        height:400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: #E4D0F7;
+    }
+    .map>.img{
+        position: absolute;
+        top:30px;
+        right:5px;
+        width:360px;
+    }
+    .map-text{
+        position: absolute;
+        top:290px;
+        left:20px;
+        padding: 10px;
+    }
+    .map-text>h1{
+        font-weight: bolder;
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    .map-text>h2{
+        font-size:16px;
+        padding-left: 15px;
+    }
+    .map-blank{
+        width:70px;
+        height:70px;
+        background: white;
+        border-radius: 10px;
+        position: absolute;
+        right:33px;
+        top:42px;
+    }
 }
 

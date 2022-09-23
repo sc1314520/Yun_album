@@ -1,3 +1,4 @@
+@media screen and (max-width:2000px){
 .sc{
     display: flex;
     justify-content: space-evenly;
@@ -38,4 +39,59 @@
 .sc-text>p{
     font-size:32px;
     line-height: 1.8;
+}
+
+}
+
+
+
+
+@media screen and (max-width:500px){
+.sc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sc-content{
+    width:90%;
+    height:150px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.p{
+    background: #E4D0F7;
+}
+.b{
+    background: rgba(48, 57, 241, 0.1);
+}
+.p2{
+    background: #E4D0F7;
+}
+.b2{
+    background: rgba(48, 57, 241, 0.1);
+}
+.sc-content>h1{
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 1.4;
+    position: absolute;
+    top:20px;
+    left:15px;
+}
+.sc-text{
+   
+    
+    position: absolute;
+    top:45px;
+    left:140px;
+}
+.sc-text>p{
+    font-size:14px;
+    line-height: 1.8;
+}
 }

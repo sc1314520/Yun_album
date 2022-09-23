@@ -11,21 +11,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/template.css">
     <link rel="stylesheet" href="css/schedule.css">
+    <script src="js/jquery2.2.3.min.js"></script>
+    <script src="js/template.js"></script>
 </head>
 <body>
     <div class="header">
+        <div class="hide-list"> 
+            <ul>
+                <li><a href="index.html">Home</a><div id="0" class="bar" ></div></li>
+                <li><a href="schedule.html">Schedule</a><div id="1" class="bar" style="display: none;"></div></li>
+                <li><a href="album.html">Album</a><div id="2" class="bar" style="display: none;"></div></li>
+                <li><a href="about.html">About</a><div id="3" class="bar" style="display: none;"></div></li>
+            </ul>
+        </div>
         <div class="logo">
             <img src="images/1-1.png" alt="">
         </div>
         <div class="blank"></div>
         <div class="header-list">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="album.html">Album</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a><div id="0" class="bar" ></div></li>
+                <li><a href="schedule.html">Schedule</a><div id="1" class="bar" style="display: none;"></div></li>
+                <li><a href="album.html">Album</a><div id="2" class="bar" style="display: none;"></div></li>
+                <li><a href="about.html">About</a><div id="3" class="bar" style="display: none;"></div></li>
             </ul>
+            <div id="ham" class="ham">☰</div>
         </div>
+
     </div>
     <div class="main">
         <div class="sc">
@@ -37,7 +49,7 @@
                     <p>Destination: Lanyu</p>
                 </div>
             </div>
-            <div class="sc-content p b1">
+            <div class="sc-content p b1 p2">
                 <h1>DAY 1</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-flag"></i>  抵達、租機車</p>
@@ -47,14 +59,14 @@
             </div>
         </div>
         <div class="sc">
-            <div class="sc-content p">
+            <div class="sc-content p b2">
                 <h1>DAY 2</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-star"></i>  Freediving lesson</p>
                     <p><i class="fa-solid fa-utensils"></i>  雯雯芋頭冰、蘭嶼旅人</p>
                 </div>
             </div>
-            <div class="sc-content b">
+            <div class="sc-content b p2">
                 <h1>DAY 3</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-star"></i>  Freediving lesson</p>
@@ -63,14 +75,14 @@
             </div>
         </div>
         <div class="sc">
-            <div class="sc-content b">
+            <div class="sc-content b b2">
                 <h1>DAY 4</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-star"></i>  Freediving lesson</p>
                     <p><i class="fa-solid fa-utensils"></i>  島民冰狗店、人魚和貓</p>
                 </div>
             </div>
-            <div class="sc-content p">
+            <div class="sc-content p p2">
                 <h1>DAY 5</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-location-dot"></i> 東清日出、情人洞</p>
@@ -79,7 +91,7 @@
             </div>
         </div>
         <div class="sc">
-            <div class="sc-content p">
+            <div class="sc-content p b2">
                 <h1>DAY 6</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-cloud-rain"></i> 颱風（？）</p>
@@ -87,7 +99,7 @@
                     <p><i class="fa-solid fa-utensils"></i> 角落、在海邊</p>
                 </div>
             </div>
-            <div class="sc-content b">
+            <div class="sc-content b p2">
                 <h1>DAY 7</h1>
                 <div class="sc-text">
                     <p><i class="fa-solid fa-person-swimming"></i> Freediving 跟潛</p>

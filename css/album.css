@@ -1,13 +1,18 @@
+@media screen and (max-width:2000px){
 .album{
     width:100%;
     display: flex;
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.album2{
+    display: none;
+}
 .album-box1{
     width:400.5px;
     height: 100%;
     margin-left: 65px;
+
 }
 .album-box2{
     width:324px;
@@ -22,7 +27,39 @@
 .album-content{
     width:100%;
     margin-bottom: 20px;
+ 
 }
 .album-content>img{
     width: 100%;
+}
+}
+@media screen and (max-width:500px){
+    .album{
+        width:100%;
+        display: none;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    
+    }
+    .album2{
+        width:100%;
+        display: flex;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .album-box1{
+        width:164px;
+        height: 100%;
+        margin-left: 0;
+    
+    }
+    .album-box2{
+        width:126px;
+        height: 100%;
+        margin-left: 20px;
+    }
+
+   
 }
